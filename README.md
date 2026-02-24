@@ -1,77 +1,162 @@
-# Supply-Chain-Performance-Dashboard-PowerBI
+📊 Supply Chain Performance & Delivery Efficiency Dashboard (Power BI)
+📌 Project Title
 
-Power BI dashboard analyzing supply chain performance, shipment delays, and regional trends using logistics data to identify inefficiencies and support data-driven decision making.
+Supply Chain Performance & Delivery Efficiency Analysis using Power BI
 
----
+🚀 Project Overview
 
-## Project Overview
-This project analyzes end-to-end shipment performance and highlights operational inefficiencies using an interactive Power BI dashboard. It provides visibility into delivery timelines, delay patterns, and regional performance to support faster, data-driven decisions in supply chain operations.
+This project focuses on analyzing end-to-end shipment performance and identifying operational inefficiencies within a supply chain dataset. The dashboard was built in Power BI to provide visibility into delivery timelines, delay patterns, and regional performance.
 
----
+The objective is to transform raw logistics data into meaningful insights that support better decision-making in supply chain operations.
 
-## Business Problem
-Supply chain teams often face:
-- Limited visibility into delivery delays
-- Difficulty comparing planned vs actual shipment timelines
-- Lack of centralized reporting for regional performance
-- Slow identification of operational bottlenecks
+⚠️ Business Problem
 
-This dashboard helps track performance and quickly surface delay trends and problem areas.
+Supply chain operations often face challenges such as:
 
----
+Limited visibility into delivery delays
 
-## Objectives
-- Analyze delivery performance against scheduled timelines
-- Identify and categorize shipment delays (Early / On-Time / Late)
-- Evaluate regional and country-level order distribution
-- Enable performance monitoring through interactive visuals
-- Support insight-driven improvements in shipment execution
+Difficulty comparing planned vs actual shipment timelines
 
----
+Lack of centralized reporting for regional performance
 
-## Dashboard Highlights
-### Shipment Performance Tracking
-- Compared scheduled vs actual shipping days to measure delays
-- Calculated deviations between planned and actual timelines
+Inefficient identification of operational bottlenecks
 
-### Delay Classification
-- Categorized shipments into Early, On-Time, and Late
-- Enabled quick identification of delayed shipments
+This project addresses these issues by creating an interactive dashboard that enables better tracking of shipment performance.
 
-### Regional Insights
-- Visualized order distribution across regions and countries
-- Helped identify high-demand and high-delay areas
+🎯 Objectives
 
-### KPI Monitoring
-- Total Orders
-- Average Shipping Time
-- Delay Frequency
+Analyze delivery performance against scheduled timelines
 
----
+Identify and categorize shipment delays (Early / On-Time / Late)
 
-## Key Outcomes
-- Identified gaps between planned and actual delivery timelines
-- Highlighted regions with higher delay frequency
-- Created a structured approach to track supply chain performance
-- Improved interpretability of large datasets using visualization
+Evaluate regional and country-level order distribution
 
----
+Build an interactive dashboard for performance monitoring
 
-## Tools & Technologies
-- Power BI
-- Microsoft Excel
-- DAX (Data Analysis Expressions)
+Identify inefficiencies in shipment execution
 
----
+📊 Dashboard Highlights
+🔹 Shipment Performance Tracking
 
-## Technical Implementation
-### Data Preparation
-- Cleaned the dataset in Excel
-- Removed null/irrelevant columns
-- Standardized formats for analysis
+Compared Scheduled vs Actual Shipping Days to measure delays
 
-### Data Modeling
-- Imported dataset into Power BI
-- Structured data for analysis and visualization
+Calculated deviations between planned and actual delivery timelines
+
+🔹 Delay Classification
+
+Categorized shipments into Early, On-Time, and Late
+
+Enabled quick identification of delayed shipments
+
+🔹 Regional Insights
+
+Visualized order distribution across regions and countries
+
+Identified high-demand and high-delay areas
+
+🔹 KPI Monitoring
+
+Total Orders
+
+Average Shipping Time
+
+Delay Frequency
+
+💼 Business Impact
+
+Improved visibility into delivery performance
+
+Identified patterns in shipment delays
+
+Supported better planning and scheduling decisions
+
+Enabled data-driven operational monitoring
+
+📈 Key Outcomes
+
+Identified gaps between planned and actual delivery timelines
+
+Highlighted regions with higher delay frequency
+
+Built a structured approach for tracking supply chain performance
+
+Simplified interpretation of large datasets through visualization
+
+🛠️ Tools & Technologies
+
+Power BI
+
+Microsoft Excel
+
+DAX (Data Analysis Expressions)
+
+⚙️ Technical Implementation
+🔹 Data Preparation
+
+Cleaned dataset in Excel
+
+Removed null and irrelevant columns
+
+Standardized data formats
+
+🔹 Data Modeling
+
+Imported dataset into Power BI
+
+Structured data for analysis and visualization
+
+🔹 DAX Calculations
+Delay Calculation
+Delay = [Days for Shipping (Actual)] - [Days for Shipment (Scheduled)]
+Delay Category
+Delay Category = 
+IF([Delay] < 0, "Early",
+   IF([Delay] = 0, "On-Time", "Late"))
+KPI Measures
+
+Total Orders
+
+Average Shipping Time
+
+Count of Delayed Orders
+
+🔹 Dashboard Design
+
+Used KPI cards for summary metrics
+
+Applied column charts for regional comparisons
+
+Integrated filters and slicers for interactivity
+
+Designed layout for clarity and ease of use
+
+🧠 Skills Demonstrated
+📊 Analytical Skills
+
+Data interpretation
+
+KPI tracking
+
+Trend analysis
+
+🧰 Technical Skills
+
+Power BI dashboard development
+
+DAX calculations
+
+Data cleaning in Excel
+
+🏢 Business Understanding
+
+Supply chain operations
+
+Shipment lifecycle analysis
+
+Performance monitoring
+
+🏁 Conclusion
+
+This project demonstrates the ability to analyze supply chain data and build interactive dashboards that provide actionable insights. It highlights both technical and analytical skills relevant to supply chain, operations, and data analysis roles.
 
 
