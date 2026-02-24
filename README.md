@@ -86,7 +86,7 @@ KPI Measures:
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 This project demonstrates the ability to analyze supply chain data and build dashboards that provide actionable insights for improving operational efficiency.
 
 
